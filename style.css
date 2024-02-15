@@ -69,3 +69,13 @@ div#quad figure.expanded figcaption {
 div.full figure:not(.expanded) {
     pointer-events: none;
 }
+
+@media (max-width:800px) {
+    div#quad figure figcaption {
+        font-size: 0.5rem;
+    }
+    div#quad{
+        width: 320px;
+    }
+
+}
