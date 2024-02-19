@@ -70,6 +70,11 @@ div.full figure:not(.expanded) {
     pointer-events: none;
 }
 
+.images{
+    background: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.8s ease-in-out;
+}
+
 @media (max-width:800px) {
     div#quad figure figcaption {
         font-size: 0.5rem;
